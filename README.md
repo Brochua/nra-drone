@@ -1,30 +1,37 @@
-# nra-drone 
+# NRA DRONE
 
-abstract readMe to provide direction
+## Table of Contents
+- [Description](#description)
+- [Visuals](#visuals)
+- [Installation](#installation)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
 
-beginning phase
-before designing 3d model the drone
-1- design the drone in fusion program to find approximate weight of drone body
-2- find motor that can lift weight of drone body + 4*weight of motor (approx. 50g) atleast 1000kv
-3- find propellers
-building phase
-4- mount propellers on motors and see if it spins
-5- mount motors on drone body
-testing phase
-6- code Arduino to make drone simply fly upwards
-7- test using Arduino to make drone fly up
-8- mount tilting mechanism (gyroscope arduino)
-9- code and test tilting mechanism
-controller phase
-10-figure out how to use a controller to control Arduino.
+## Description
+A drone project bla bla bla -- to do
 
+Key Features:
+- NRF: Send commands via a NRF module to control the Drone.
+- ... more
 
-extra features phase
-face rec
-camera
-etc...
+## Visuals
+to implement
 
+## Installation
+1. **Clone this repository**:
+`git clone https://github.com/Brochua/nra-drone.git`
 
-END PHASE
-create circuit for the drone to replace Arduino in drone
-customize final version of drone
+2. **Install the required library**: You will need the `TMRh20/RF24` library for the NRF communication. You can do this in the [Arduino IDE](https://github.com/arduino)
+
+3. TO DO
+
+## Requirements:
+TO DO
+
+## Roadmap
+Planned features for future releases:
+- **Case**: Fully cased drone for protection and looks
+- **Controller**: Controller to control the drone in the future
+- **Speed Control**: Adjusting the speed of the motors
+- **Sensors**: Integrate a sensor to detect obstacles

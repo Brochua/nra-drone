@@ -1,8 +1,3 @@
-/*
-        Arduino Brushless Motor Control
-     by Dejan, https://howtomechatronics.com
-*/
-
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>

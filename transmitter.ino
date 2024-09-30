@@ -1,9 +1,5 @@
 /*
-* Arduino Wireless Communication Tutorial
-*     Example 1 - Transmitter Code
-*                
-* by Dejan Nedelkovski, www.HowToMechatronics.com
-* 
+*           
 * Library: TMRh20/RF24, https://github.com/tmrh20/RF24/
 */
 
@@ -15,7 +11,7 @@ RF24 radio(7, 8); // CE, CSN
 
 const byte address[6] = "00001";
 int potValue = 0;
-bool kill = false;
+bool kill = false; // For button -> shuts the motors
 const int buttonPin = 2;
 
 int buttonState = 0;

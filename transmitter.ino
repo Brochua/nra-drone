@@ -3,6 +3,18 @@
 * Library: TMRh20/RF24, https://github.com/tmrh20/RF24/
 */
 
+/**
+ * Transmitter
+ * VCC --> 5V
+ * GND --> GND
+ * CE --> pin 7
+ * CSN --> pin 8
+ * SCK --> pin 13
+ * M0 (MOSI) --> pin 11
+ * m1 (MISO) --> pin 12
+ */
+
+
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>

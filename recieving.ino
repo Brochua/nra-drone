@@ -1,3 +1,15 @@
+/**
+ * Receiver
+ * VCC --> 5V
+ * GND --> GND
+ * CE --> pin 7
+ * CSN --> pin 8
+ * SCK --> pin 13
+ * M0 (MOSI) --> pin 11
+ * m1 (MISO) --> pin 12
+ */
+
+
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
@@ -11,7 +23,7 @@ RF24 radio(7, 8); // CE, CSN
 
 const byte address[6] = "00001";
 
-int potValue;  // value from the analog pin
+int potValue = "";  // value from the analog pin
 
 void setup() {
   // Reciever setup
